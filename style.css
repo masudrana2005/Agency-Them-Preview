@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header Section Start Here */
+.header-section{
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #212529;
+    z-index: 1;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.logo-area{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-top: 8px;
+}
+.logo-area img{
+    width: 185px;
+    height: 60px;
+}
+.menu-area{
+    width: 80%;
+    height: 70px;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+.menu-area li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.menu-area li a{
+    text-transform: uppercase;
+    color: #e3e3e4;
+    letter-spacing: 0.5px;
+}
+.menu-area li a:hover{
+    color: #e3b305;
+}
+/* Header Section End Here */
+
+
+/* Hero Section1 Start Here */
+.hero-section1{
+    width: 100%;
+    background: url(images/header-bg.jpg);
+    height: 747px;
+    background-position: center center;
+    margin-top: -70px;
+}
+.hero-section1 h2{
+    color: #fff;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+.hero-section1 h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 21px;
+    margin-bottom: 60px;
+}
+.text-area {
+    text-align: center;
+    padding-top: 270px;
+}
+.hero-section1 .btn{
+    width: 220px;
+    height: 68px;
+    background-color: #ffc800;
+    margin: auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hero-section1 .btn a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hero-section1 .btn:hover{
+    background-color: #cca000;
+}
+/* Hero Section1 End Here */
+
+
+/* Services Section Start Here */
+#services-section{
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 106px;
+}
+#services-section .content{
+    text-align: center;
+}
+
+/* Use of All Section Start Here */
+.content h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.content p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #6c757d;
+}
+/* Use of All Section End Here */
+
+#services-section .box{
+    width: 403px;
+    height: auto;
+    margin-top: 64px;
+    margin-bottom: 90px;
+    float: left;
+    padding: 15px;
+}
+#services-section .icon{
+    text-align: center;
+}
+.fa-solid {
+    font-size: 65px;
+    padding: 27px;
+    background-color: #ffc800;
+    border-radius: 60px;
+    color: #fff;
+}
+#services-section p{
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    text-align: center;
+    line-height: 28px;
+}
+#services-section h1{
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* Services Section End Here */
+
+
+/* Portfolio Section Start here */
+#portfolio-section{
+    width: 100%;
+    height: 1200px;
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+#portfolio-section .main-content{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 100px;
+}
+#portfolio-section .content h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#portfolio-section .content p{
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color: #6c757d;
+}
+#portfolio-section .content {
+    text-align: center;
+    margin-bottom: 67px;
+}
+#portfolio-section .box{
+    background-color: #FFF;
+    width: 409px;
+    height: 420px;
+    float: left;
+    margin: 0 12px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+#portfolio-section .img{
+    width: 420px;
+    height: 312px;
+    position: relative;
+}
+#portfolio-section img{
+    width: 100%;
+    height: 100%;
+}
+#portfolio-section .img::before{
+    content: "+";
+    color: #fff;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc800;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0.9;
+    position: absolute;
+}
+#portfolio-section .img:hover::before{
+    visibility: visible;
+    /* cursor: pointer; */
+}
+#portfolio-section h2{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#portfolio-section p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #6c757d;
+}
+#portfolio-section .text{
+    width: 420px;
+    height: 108px;
+    text-align: center;
+    margin-top: 27px;
+}
+/* Portfolio Section End here */
+
+
+/* About Section Start Here */
+#about-section {
+    margin-bottom: 120px;
+    padding-top: 106px;
+}
+#about-section .content{
+    text-align: center;
+}
+#about-section .content>h2{
+    font-size: 40px;
+}
+#about-section .box-1{
+    width: 1300px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+#about-section .content-area-1{
+    width: 411px;
+    float: left;
+    padding: 0 20px 20px 100px;
+}
+#about-section .content-area-1 h2{
+    font-family: 'Roboto Slab', serif;
+    text-align: right;
+}
+#about-section .content-area-1 p{
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    line-height: 28px;
+    text-align: right;
+}
+#about-section img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    border: 6px solid #e9ecef;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+#about-section .image-area-1{
+    position: relative;
+}
+#about-section .image-area-1::before{
+    content: "";
+    width: 3px;
+    height: 134px;
+    background-color: #e9ecef;
+    top: 182px;
+    left: 50%;
+    position: absolute;
+}
+#about-section .box-2{
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 130px;
+}
+#about-section .image-area-2{
+    padding-left: 531px;
+    display: block;
+    float: left;
+    position: relative;
+}
+#about-section .image-area-2::before{
+    content: "";
+    width: 3px;
+    height: 128px;
+    background-color: #e9ecef;
+    top: 98%;
+    right: 124px;
+    position: absolute;
+}
+#about-section .content-area-2{
+    width: 411px;
+    overflow: hidden;
+    padding: 0px 100px 20px 0;
+}
+#about-section .content-area-2 h2{
+    font-family: 'Roboto Slab', serif;
+}
+#about-section .content-area-2 p{
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    line-height: 28px;
+}
+#about-section .box-3{
+    width: 1300PX;
+    margin: auto;
+}
+#about-section .timeline-image{
+    width: 105px;
+    height: 100px;
+    background-color: #ffc800;
+    color: #fff;
+    text-align: center;
+    padding: 33px;
+    margin-left: 563px;
+    border: 6px solid #e9ecef;
+    border-radius: 50%;
+    line-height: 26px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#about-section h2{
+    font-size: 18px;
+}
+/* About Section End Here */
+
+
+/* Amazing Section Start Here */
+#team-section{
+    width: 100%;
+    height: 820px;
+    background-color: #f8f9fa;
+}
+#team-section .image-and-content{
+    max-width: 1300px;
+    margin: auto;
+}
+#team-section .content{
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 70px;
+}
+#team-section .box{
+    width: 210px;
+    height: 210px;
+    float: left;
+    padding: 0 111px;
+    margin-bottom: 200px;
+}
+#team-section img{
+    width: 100%;
+    height: 100%;
+    border: 8px solid #dfe0e1;
+    border-radius: 50%;
+}
+#team-section .text{
+    text-align: center;
+    margin-top: 24px;
+    line-height: 25px;
+}
+#team-section p{
+    color: #6c757d;
+    font-family: 'Roboto Slab', serif;
+}
+#team-section .icon{
+    margin-top: 24px;
+    text-align: center;
+}
+#team-section .icon i:hover{
+    color: #424649;
+}
+#team-section i{
+    padding: 8px;
+}
+#team-section .paragraph{
+    max-width: 1300px;
+    margin: auto;
+}
+#team-section .paragraph p{
+    width: 66%;
+    text-align: center;
+    margin-left: 230px;
+}
+/* Amazing Section End Here */
+
+
+/* Image Section Start Here */
+.image-section{
+    max-width: 1300px;
+    margin: auto;
+}
+.image-section img{
+    width: 200px;
+    height: 50px;
+    padding: 60px;
+}
+/* Image Section End Here */
+
+
+/* Contact Section Start Here */
+#contact-section{
+    width: 100%;
+    height: 710px;
+    background: #212529;
+}
+#contact-section .content{
+    text-align: center;
+    line-height: 55px;
+    padding-top: 92px;
+    padding-bottom: 50px;
+}
+#contact-section h1{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.form-area{
+    max-width: 1300px;
+    margin: auto;
+}
+.form-area input{
+    width: 590px;
+    padding: 23px;
+    /* color: #a4a9ad; */
+    color: #212529;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+.text-area textarea{
+    width: 595px;
+    height: 208px;
+    /* color: #a4a9ad; */
+    color: #212529;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    float: right;
+    padding: 20px;
+    margin-top: -544px;
+}
+#contact-section .btn h2{
+    width: 180px;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    color: #b1b3b4;
+    padding: 22px;
+    border-radius: 5px;
+    background-color: #b18f0e;
+    text-align: center;
+}
+#contact-section .btn{
+    justify-content: center;
+    display: flex;
+    margin-top: -245px;
+}
+/* Contact Section End Here */
+
+
+/* Footer Section Start here */
+.footer-section{
+    width: 100%;
+    padding: 36px 0;
+}
+.footer-section p{
+    font-size: 14px;
+}
+.footer-section .content-and-icon{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.footer-section .content-1{
+    width: 500px;
+}
+.footer-section .icon{
+    width: 300px;
+    justify-content: center;
+    display: flex;
+}
+.footer-section .icon i:hover{
+    color: #424649;
+}
+.footer-section i{
+    padding: 10px;
+}
+.footer-section .content-2{
+    width: 500px;
+    justify-content: end;
+    display: flex;
+}
+/* Footer Section End here */
